@@ -1,0 +1,66 @@
+.responsive{
+    background-color: yellow;
+}
+.header{
+    background-color: yellow;
+    color: black;
+    width: 80%;
+}
+
+/* x-small screen */
+@media only screen and (max-width: 575.98px) { 
+    .responsive{
+        background-color: blue;
+    }
+    .header{
+        background-color: black;
+        color: red;
+        width: 90%;
+    }
+}
+/* small screen */
+@media (min-width: 576px) and (max-width: 767.98px){
+    .responsive{
+        background-color: red;
+    }
+    .header{
+        background-color: brown;
+        color: white;
+        width: 70%;
+    }
+}
+/* medium screen */
+@media (min-width: 768px) and (max-width: 991.98px){
+    .responsive{
+        background-color: violet;
+    }
+    .header{
+        background-color: tomato;
+        color: yellowgreen;
+        width: 20%;
+    }
+}
+/* large screen */
+@media (min-width: 992px) and (max-width: 1199.98px){
+    .responsive{
+        background-color: rgb(139, 69, 19);
+    }
+    .header{
+        background-color: violet;
+        color: blueviolet;
+        width: 50%;
+    }
+}
+
+/* x-large screen */
+@media (min-width: 1200px) and (max-width: 1399.98px){
+    .responsive{
+        background-color: whitesmoke;
+    }
+    .header{
+        background-color: violet;
+        color: blanchedalmond;
+        width: 50%;
+    }
+}
+
